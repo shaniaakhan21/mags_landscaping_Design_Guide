@@ -484,6 +484,89 @@
   ::-webkit-scrollbar { width:6px; }
   ::-webkit-scrollbar-track { background:var(--green-deep); }
   ::-webkit-scrollbar-thumb { background:var(--gold); border-radius:3px; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .container { padding: 0 32px; }
+    .logo-grid { grid-template-columns: 1fr 1fr; }
+    .swatches-primary { grid-template-columns: 1fr 1fr; }
+    .swatches-secondary { grid-template-columns: repeat(3, 1fr); }
+    .mockup-cards { grid-template-columns: 1fr 1fr; }
+    .elements-grid { grid-template-columns: 1fr 1fr; }
+    .section-title { font-size: 36px; }
+    .cards-row { gap: 24px; }
+    .biz-card { width: 300px; }
+  }
+
+  @media (max-width: 640px) {
+    .container { padding: 0 20px; }
+    section { padding: 48px 0; }
+
+    /* Hero */
+    .hero { padding: 48px 20px; min-height: auto; }
+    .logo-icon-wrap { width: 80px; height: 80px; margin-bottom: 20px; }
+    .logo-icon-wrap svg { width: 48px; height: 48px; }
+    .logo-wordmark-main { font-size: 40px; letter-spacing: 2px; }
+    .logo-wordmark-sub { font-size: 10px; letter-spacing: 6px; }
+    .logo-tagline { font-size: 13px; }
+    .brand-label { font-size: 9px; letter-spacing: 3px; margin-bottom: 32px; text-align: center; }
+    .hero-divider { margin: 36px auto; height: 40px; }
+
+    /* Sections */
+    .section-title { font-size: 28px; }
+    .section-intro { font-size: 13px; margin-bottom: 36px; }
+
+    /* Logo grid */
+    .logo-grid { grid-template-columns: 1fr; }
+    .logo-card { min-height: 160px; padding: 32px 20px; }
+    .lmark-name { font-size: 22px; }
+
+    /* Palette */
+    .swatches-primary { grid-template-columns: 1fr; }
+    .swatches-secondary { grid-template-columns: 1fr 1fr; }
+    .swatch-main { height: 160px !important; }
+    .colour-guide-grid { grid-template-columns: 1fr !important; }
+
+    /* Typography */
+    .font-display-cg { font-size: 36px; }
+    .font-display-mt { font-size: 28px; }
+    .font-display-pf { font-size: 30px; }
+    .h-text-h1 { font-size: 24px; }
+    .h-text-h2 { font-size: 18px; }
+    .h-text-h3 { font-size: 15px; }
+    .h-size { display: none; }
+    .hierarchy-row { gap: 10px; padding: 12px 0; }
+    .h-label { min-width: 56px; font-size: 9px; }
+    .type-spec-row { flex-direction: column; gap: 6px; }
+    .type-meta { flex-wrap: wrap; gap: 8px; }
+
+    /* Elements */
+    .elements-grid { grid-template-columns: 1fr; }
+    .elem-card { padding: 32px 24px; }
+    .btn { padding: 12px 24px; font-size: 11px; }
+
+    /* Business card */
+    .cards-row { flex-direction: column; align-items: flex-start; }
+    .biz-card { width: 100%; max-width: 320px; height: 180px; }
+
+    /* Mockup */
+    .mockup-cards { grid-template-columns: 1fr; }
+    .mockup-card { padding: 32px 24px; }
+    .mockup-card-title { font-size: 18px; }
+
+    /* Footer */
+    .brand-footer { flex-direction: column; text-align: center; padding: 32px 20px; gap: 12px; }
+
+    /* Icon sizes row */
+    .icon-sizes-row { flex-wrap: wrap !important; gap: 12px !important; }
+  }
+
+  @media (max-width: 400px) {
+    .logo-wordmark-main { font-size: 34px; }
+    .section-title { font-size: 24px; }
+    .swatches-secondary { grid-template-columns: 1fr; }
+    .biz-card { height: 170px; }
+  }
 </style>
 </head>
 <body>
@@ -600,7 +683,7 @@
     <!-- Icon / Favicon row -->
     <div style="display:flex; gap:24px; align-items:center; padding:32px; background:var(--white);">
       <div style="font-family:'Montserrat',sans-serif; font-size:10px; letter-spacing:3px; text-transform:uppercase; color:var(--grey-mid); min-width:120px;">Icon Sizes</div>
-      <div style="display:flex; gap:20px; align-items:center; flex-wrap:wrap;">
+      <div class="icon-sizes-row" style="display:flex; gap:20px; align-items:center; flex-wrap:wrap;">
         <!-- 16 -->
         <div style="display:flex; flex-direction:column; align-items:center; gap:6px;">
           <div style="width:16px; height:16px; background:#1B4332; border-radius:2px; display:flex; align-items:center; justify-content:center;">
@@ -712,7 +795,7 @@
     </div>
 
     <!-- Colour usage guide -->
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:2px; margin-top:3px;">
+    <div class="colour-guide-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:2px; margin-top:3px;">
       <div style="background:var(--ivory); padding:28px 32px;">
         <div style="font-family:'Montserrat',sans-serif; font-size:10px; font-weight:700; letter-spacing:3px; text-transform:uppercase; color:var(--grey-mid); margin-bottom:16px;">Colour Roles</div>
         <div style="font-family:'Montserrat',sans-serif; font-size:12px; line-height:2; color:var(--charcoal);">
