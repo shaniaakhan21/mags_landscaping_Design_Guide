@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mags Landscaping — Logo Downloads</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gd:#1B4332; --gm:#2D6A4F; --gl:#52B788;
+    --go:#C9A84C; --gol:#F0E0A8; --god:#A07830;
+    --iv:#F8F4EC; --ivd:#EDE8DA; --ch:#2D2D2D;
+    --gry:#666; --grl:#E4E4E4; --wh:#FFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#F0EDE5;font-family:'Montserrat',sans-serif;color:var(--ch);}
+
+  /* ── PAGE HEADER ── */
+  .page-header{
+    background:var(--gd);padding:28px 48px;
+    display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;
+  }
+  .back-link{
+    font-size:10px;font-weight:600;letter-spacing:3px;text-transform:uppercase;
+    color:rgba(255,255,255,.4);text-decoration:none;transition:color .15s;
+  }
+  .back-link:hover{color:var(--go);}
+  .ph-center{text-align:center;}
+  .ph-title{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,3vw,28px);font-weight:700;color:var(--wh);}
+  .ph-title span{color:var(--go);}
+  .ph-sub{font-size:9px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:rgba(255,255,255,.3);margin-top:4px;}
+  .ph-right{font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.2);text-align:right;line-height:1.8;}
+
+  /* ── LAYOUT ── */
+  .dl-section{padding:64px 0;}
+  .dl-section.bg-white{background:var(--wh);}
+  .dl-section.bg-ivory{background:var(--iv);}
+  .dl-section.bg-dark{background:var(--gd);}
+  .container{max-width:1280px;margin:0 auto;padding:0 48px;}
+
+  .sec-label{font-size:10px;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--god);margin-bottom:8px;}
+  .sec-title{font-family:'Cormorant Garamond',serif;font-size:clamp(24px,3.5vw,40px);font-weight:700;color:var(--gd);line-height:1.1;margin-bottom:10px;}
+  .sec-desc{font-size:13px;line-height:1.8;color:var(--gry);max-width:620px;margin-bottom:40px;}
+  .sec-label-lt{color:var(--go);} .sec-title-lt{color:var(--wh);} .sec-desc-lt{color:rgba(255,255,255,.45);}
+
+  .notice{
+    background:var(--iv);border-left:3px solid var(--go);
+    padding:14px 20px;margin-bottom:40px;
+    font-size:11px;line-height:1.8;color:var(--ch);
+  }
+  .notice strong{color:var(--gd);}
+
+  /* ── LOGO CARDS ── */
+  .logo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:3px;}
+  .logo-card{background:var(--iv);display:flex;flex-direction:column;}
+  .logo-preview{
+    display:flex;align-items:center;justify-content:center;
+    padding:36px 28px;min-height:190px;
+  }
+  .logo-preview img{max-width:100%;max-height:160px;display:block;}
+  .logo-info{padding:14px 18px 18px;border-top:1px solid var(--grl);background:var(--wh);}
+  .logo-name{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ch);margin-bottom:3px;}
+  .logo-desc{font-size:10px;color:var(--gry);margin-bottom:12px;line-height:1.5;}
+  .dl-btns{display:flex;gap:5px;flex-wrap:wrap;}
+  .db{
+    font-family:'Montserrat',sans-serif;font-size:8px;font-weight:700;
+    letter-spacing:1px;text-transform:uppercase;border:none;cursor:pointer;
+    padding:7px 10px;transition:opacity .15s;
+  }
+  .db:hover{opacity:.75;}
+  .db-svg{background:var(--gd);color:var(--wh);}
+  .db-sm{background:var(--ivd);color:var(--ch);border:1px solid var(--grl);}
+  .db-lg{background:var(--go);color:var(--wh);}
+  .db-xl{background:var(--god);color:var(--wh);}
+
+  /* ── PLATFORM SECTION ── */
+  .platform-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:3px;}
+  .platform-card{background:var(--wh);padding:24px;}
+  .plat-header{display:flex;align-items:center;gap:12px;margin-bottom:16px;}
+  .plat-icon{
+    width:34px;height:34px;border-radius:6px;
+    display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  }
+  .plat-name{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--ch);}
+  .plat-handle{font-size:10px;color:var(--gry);margin-top:2px;}
+  .size-row{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:8px 10px;background:var(--iv);margin-bottom:2px;
+  }
+  .size-info{display:flex;flex-direction:column;}
+  .size-label{font-size:10px;font-weight:600;color:var(--ch);}
+  .size-dims{font-size:9px;color:var(--gry);margin-top:1px;letter-spacing:.5px;}
+  .size-btns{display:flex;gap:4px;}
+  .sb{
+    font-family:'Montserrat',sans-serif;font-size:8px;font-weight:700;
+    letter-spacing:1px;text-transform:uppercase;border:none;cursor:pointer;padding:5px 8px;
+  }
+  .sb:hover{opacity:.75;}
+  .sb-svg{background:var(--gd);color:var(--wh);}
+  .sb-png{background:var(--go);color:var(--wh);}
+
+  /* ── FOOTER ── */
+  .dl-footer{
+    background:var(--ch);padding:28px 48px;
+    display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;
+  }
+  .df-brand{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:700;color:var(--wh);}
+  .df-brand span{color:var(--go);}
+  .df-note{font-size:9px;color:rgba(255,255,255,.25);letter-spacing:1px;line-height:1.7;}
+
+  /* Toast */
+  #toast{
+    position:fixed;bottom:24px;right:24px;z-index:9999;
+    background:var(--gd);color:var(--wh);
+    font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:1.5px;
+    text-transform:uppercase;padding:12px 20px;
+    transform:translateY(80px);opacity:0;transition:all .3s;pointer-events:none;
+  }
+  #toast.show{transform:translateY(0);opacity:1;}
+
+  /* ── RESPONSIVE ── */
+  @media(max-width:960px){
+    .container{padding:0 28px;}
+    .logo-grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));}
+  }
+  @media(max-width:640px){
+    .page-header{padding:20px 18px;}
+    .container{padding:0 16px;}
+    .dl-section{padding:44px 0;}
+    .logo-grid{grid-template-columns:1fr 1fr;}
+    .platform-grid{grid-template-columns:1fr;}
+    .dl-footer{padding:20px 16px;flex-direction:column;text-align:center;}
+    .ph-right{display:none;}
+    .logo-preview{min-height:150px;padding:24px 16px;}
+  }
+  @media(max-width:400px){
+    .logo-grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ── PAGE HEADER ── -->
+<header class="page-header">
+  <a href="index.html" class="back-link">← Brand Kit</a>
+  <div class="ph-center">
+    <div class="ph-title">Mags <span>Landscaping</span></div>
+    <div class="ph-sub">Logo Downloads · All Formats</div>
+  </div>
+  <div class="ph-right">
+    SVG · PNG 512 · PNG 1024 · PNG 2048<br>
+    Icon · Stacked · Horizontal · Wordmark
+  </div>
+</header>
+
+
+<!-- ── ICON MARK ── -->
+<section class="dl-section bg-white">
+  <div class="container">
+    <div class="sec-label">Brand Mark</div>
+    <h2 class="sec-title">Icon / Logo Mark</h2>
+    <p class="sec-desc">The botanical mark. Use as app icon, favicon, social profile picture, or stamp. Available in 7 colour themes — choose the version with the strongest contrast against its background.</p>
+    <div class="notice">
+      <strong>How to download:</strong> Click <strong>SVG</strong> for a scalable vector file (recommended for print and design tools). Click <strong>PNG 512</strong>, <strong>PNG 1024</strong>, or <strong>PNG 2048</strong> for raster images at those pixel dimensions.
+    </div>
+    <div class="logo-grid" id="icon-grid"></div>
+  </div>
+</section>
+
+
+<!-- ── STACKED LOGO ── -->
+<section class="dl-section bg-ivory">
+  <div class="container">
+    <div class="sec-label">Primary Logo</div>
+    <h2 class="sec-title">Stacked Lockup</h2>
+    <p class="sec-desc">Icon above wordmark — the primary brand signature. Ideal for hero sections, email footers, letterheads, and any square/portrait application.</p>
+    <div class="logo-grid" id="stacked-grid"></div>
+  </div>
+</section>
+
+
+<!-- ── HORIZONTAL LOGO ── -->
+<section class="dl-section bg-white">
+  <div class="container">
+    <div class="sec-label">Horizontal Lockup</div>
+    <h2 class="sec-title">Landscape Format</h2>
+    <p class="sec-desc">Icon left, wordmark right — use for website headers, email signatures, Facebook covers, LinkedIn banners, and any wide/landscape application.</p>
+    <div class="logo-grid" id="horiz-grid"></div>
+  </div>
+</section>
+
+
+<!-- ── WORDMARK ONLY ── -->
+<section class="dl-section bg-ivory">
+  <div class="container">
+    <div class="sec-label">Type Mark</div>
+    <h2 class="sec-title">Wordmark Only</h2>
+    <p class="sec-desc">Clean typographic treatment without the icon. Use when the icon mark is already established nearby, or when space is very limited horizontally.</p>
+    <div class="logo-grid" id="wordmark-grid"></div>
+  </div>
+</section>
+
+
+<!-- ── PLATFORM PRESETS ── -->
+<section class="dl-section bg-dark">
+  <div class="container">
+    <div class="sec-label sec-label-lt">Platform Presets</div>
+    <h2 class="sec-title sec-title-lt">Ready-to-Upload Sizes</h2>
+    <p class="sec-desc sec-desc-lt">Platform-specific exports at exact required dimensions. Each download is pre-sized and ready to upload — no cropping needed.</p>
+    <div class="platform-grid" id="platform-grid"></div>
+  </div>
+</section>
+
+
+<!-- ── FOOTER ── -->
+<footer class="dl-footer">
+  <div>
+    <div class="df-brand">Mags <span>Landscaping</span></div>
+    <div class="df-note" style="margin-top:4px;">Brand Identity Kit · Confidential · Internal Use Only</div>
+  </div>
+  <div class="df-note" style="text-align:center;">
+    All logos are property of Mags Landscaping.<br>
+    Do not alter colours, proportions, or typefaces.
+  </div>
+  <div class="df-note" style="text-align:right;">Version 1.0 · 2026<br><a href="index.html" style="color:var(--go);text-decoration:none;letter-spacing:1px;">← Back to Brand Kit</a></div>
+</footer>
+
+<div id="toast">Downloaded</div>
+
+<script>
+/* ─────────────────────────────────────────────
+   COLOUR THEMES
+───────────────────────────────────────────── */
+const T = {
+  light: {
+    bg:'#F8F4EC', stem:'#C9A84C', l1:'#2D6A4F', l2:'#1B4332',
+    acc:'#C9A84C', arc:'#C9A84C', cb:'rgba(201,168,76,0.07)', border:'rgba(201,168,76,0.4)',
+    txt:'#1B4332', sub:'#C9A84C', tag:'rgba(27,67,50,0.45)'
+  },
+  dark: {
+    bg:'#1B4332', stem:'#C9A84C', l1:'#52B788', l2:'#2D6A4F',
+    acc:'#C9A84C', arc:'#C9A84C', cb:'rgba(201,168,76,0.1)', border:'rgba(201,168,76,0.4)',
+    txt:'#FFFFFF', sub:'#C9A84C', tag:'rgba(255,255,255,0.45)'
+  },
+  gold: {
+    bg:'#C9A84C', stem:'#1B4332', l1:'#1B4332', l2:'#2D2D2D',
+    acc:'#FFFFFF', arc:'#1B4332', cb:'rgba(27,67,50,0.12)', border:'rgba(27,67,50,0.35)',
+    txt:'#1B4332', sub:'rgba(27,67,50,0.85)', tag:'rgba(27,67,50,0.55)'
+  },
+  white: {
+    bg:'#FFFFFF', stem:'#C9A84C', l1:'#2D6A4F', l2:'#1B4332',
+    acc:'#C9A84C', arc:'#C9A84C', cb:'rgba(201,168,76,0.06)', border:'rgba(201,168,76,0.35)',
+    txt:'#1B4332', sub:'#C9A84C', tag:'rgba(27,67,50,0.4)'
+  },
+  reversed: {
+    bg:'#1B4332', stem:'#FFFFFF', l1:'rgba(255,255,255,0.9)', l2:'rgba(255,255,255,0.65)',
+    acc:'rgba(255,255,255,0.9)', arc:'#FFFFFF', cb:'rgba(255,255,255,0.07)', border:'rgba(255,255,255,0.25)',
+    txt:'#FFFFFF', sub:'rgba(255,255,255,0.65)', tag:'rgba(255,255,255,0.35)'
+  },
+  goldDark: {
+    bg:'#1B4332', stem:'#C9A84C', l1:'#C9A84C', l2:'#A07830',
+    acc:'#F0E0A8', arc:'#C9A84C', cb:'rgba(201,168,76,0.12)', border:'rgba(201,168,76,0.5)',
+    txt:'#C9A84C', sub:'#C9A84C', tag:'rgba(201,168,76,0.5)'
+  },
+  monoBlack: {
+    bg:'#FFFFFF', stem:'#2D2D2D', l1:'#2D2D2D', l2:'#2D2D2D',
+    acc:'#2D2D2D', arc:'#2D2D2D', cb:'rgba(45,45,45,0.05)', border:'rgba(45,45,45,0.25)',
+    txt:'#2D2D2D', sub:'#2D2D2D', tag:'rgba(45,45,45,0.45)'
+  },
+  monoWhite: {
+    bg:'#2D2D2D', stem:'#FFFFFF', l1:'rgba(255,255,255,0.85)', l2:'rgba(255,255,255,0.65)',
+    acc:'#FFFFFF', arc:'#FFFFFF', cb:'rgba(255,255,255,0.06)', border:'rgba(255,255,255,0.25)',
+    txt:'#FFFFFF', sub:'rgba(255,255,255,0.65)', tag:'rgba(255,255,255,0.35)'
+  },
+  ivoryGold: {
+    bg:'#EDE8DA', stem:'#C9A84C', l1:'#2D6A4F', l2:'#1B4332',
+    acc:'#C9A84C', arc:'#C9A84C', cb:'rgba(201,168,76,0.08)', border:'rgba(201,168,76,0.4)',
+    txt:'#1B4332', sub:'#A07830', tag:'rgba(27,67,50,0.4)'
+  },
+};
+
+const fontDecl = `<defs><style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400&amp;family=Montserrat:wght@500;600&amp;display=swap');</style></defs>`;
+
+/* ─────────────────────────────────────────────
+   SVG GENERATORS
+───────────────────────────────────────────── */
+function iconSVG(t, w=200, h=200) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="${t.bg}"/>
+  <circle cx="100" cy="100" r="88" fill="${t.cb}" stroke="${t.border}" stroke-width="3"/>
+  <line x1="100" y1="152" x2="100" y2="54" stroke="${t.stem}" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M100 116 Q55 90 62 44 Q86 68 100 116Z" fill="${t.l1}" opacity="0.95"/>
+  <path d="M100 116 Q145 90 138 44 Q114 68 100 116Z" fill="${t.l2}"/>
+  <path d="M100 88 Q64 74 68 46 Q89 66 100 88Z" fill="${t.acc}" opacity="0.9"/>
+  <path d="M66 152 Q100 136 134 152" stroke="${t.arc}" stroke-width="2.8" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <circle cx="100" cy="152" r="5.5" fill="${t.stem}"/>
+</svg>`;
+}
+
+function stackedSVG(t, w=480, h=360) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 480 360">
+  ${fontDecl}
+  <rect width="480" height="360" fill="${t.bg}"/>
+  <circle cx="240" cy="110" r="80" fill="${t.cb}" stroke="${t.border}" stroke-width="2.5"/>
+  <line x1="240" y1="168" x2="240" y2="62" stroke="${t.stem}" stroke-width="4" stroke-linecap="round"/>
+  <path d="M240 130 Q192 106 198 60 Q221 82 240 130Z" fill="${t.l1}" opacity="0.95"/>
+  <path d="M240 130 Q288 106 282 60 Q259 82 240 130Z" fill="${t.l2}"/>
+  <path d="M240 100 Q200 84 204 60 Q224 78 240 100Z" fill="${t.acc}" opacity="0.9"/>
+  <path d="M204 168 Q240 150 276 168" stroke="${t.arc}" stroke-width="2.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <circle cx="240" cy="168" r="5" fill="${t.stem}"/>
+  <text x="240" y="238" font-family="'Cormorant Garamond',Georgia,serif" font-size="86" font-weight="700" text-anchor="middle" fill="${t.txt}" letter-spacing="4">Mags</text>
+  <line x1="120" y1="256" x2="360" y2="256" stroke="${t.sub}" stroke-width="1.2" opacity="0.5"/>
+  <text x="240" y="284" font-family="'Montserrat',Arial,sans-serif" font-size="17" font-weight="600" text-anchor="middle" fill="${t.sub}" letter-spacing="10">LANDSCAPING</text>
+  <text x="240" y="320" font-family="'Cormorant Garamond',Georgia,serif" font-size="19" font-style="italic" text-anchor="middle" fill="${t.tag}" letter-spacing="1.5">Crafting Nature with Precision</text>
+</svg>`;
+}
+
+function horizSVG(t, w=720, h=180) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 720 180">
+  ${fontDecl}
+  <rect width="720" height="180" fill="${t.bg}"/>
+  <circle cx="90" cy="90" r="76" fill="${t.cb}" stroke="${t.border}" stroke-width="2.2"/>
+  <line x1="90" y1="145" x2="90" y2="46" stroke="${t.stem}" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M90 110 Q48 89 54 50 Q74 70 90 110Z" fill="${t.l1}" opacity="0.95"/>
+  <path d="M90 110 Q132 89 126 50 Q106 70 90 110Z" fill="${t.l2}"/>
+  <path d="M90 84 Q54 70 58 50 Q76 66 90 84Z" fill="${t.acc}" opacity="0.9"/>
+  <path d="M60 145 Q90 130 120 145" stroke="${t.arc}" stroke-width="2.2" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <circle cx="90" cy="145" r="4.5" fill="${t.stem}"/>
+  <text x="196" y="76" font-family="'Cormorant Garamond',Georgia,serif" font-size="72" font-weight="700" fill="${t.txt}" letter-spacing="3">Mags</text>
+  <line x1="196" y1="99" x2="680" y2="99" stroke="${t.sub}" stroke-width="0.9" opacity="0.35"/>
+  <text x="198" y="126" font-family="'Montserrat',Arial,sans-serif" font-size="15" font-weight="600" fill="${t.sub}" letter-spacing="8">LANDSCAPING</text>
+  <text x="198" y="155" font-family="'Cormorant Garamond',Georgia,serif" font-size="15" font-style="italic" fill="${t.tag}" letter-spacing="1.2">Crafting Nature with Precision</text>
+</svg>`;
+}
+
+function wordmarkSVG(t, w=520, h=110) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 520 110">
+  ${fontDecl}
+  <rect width="520" height="110" fill="${t.bg}"/>
+  <text x="260" y="66" font-family="'Cormorant Garamond',Georgia,serif" font-size="74" font-weight="700" text-anchor="middle" fill="${t.txt}" letter-spacing="5">Mags</text>
+  <line x1="40" y1="80" x2="480" y2="80" stroke="${t.sub}" stroke-width="1" opacity="0.4"/>
+  <text x="260" y="101" font-family="'Montserrat',Arial,sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="${t.sub}" letter-spacing="11">LANDSCAPING</text>
+</svg>`;
+}
+
+/* ─────────────────────────────────────────────
+   DOWNLOAD HELPERS
+───────────────────────────────────────────── */
+function toDataURL(svgStr) {
+  return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgStr);
+}
+
+function dlSVG(svgStr, filename) {
+  const blob = new Blob([svgStr], {type:'image/svg+xml'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename + '.svg';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+  showToast('SVG downloaded');
+}
+
+async function dlPNG(svgStr, filename, w, h) {
+  await document.fonts.ready;
+  const blob = new Blob([svgStr], {type:'image/svg+xml'});
+  const url = URL.createObjectURL(blob);
+  const canvas = document.createElement('canvas');
+  canvas.width = w; canvas.height = h;
+  const ctx = canvas.getContext('2d');
+  const img = new Image();
+  img.onload = function() {
+    ctx.drawImage(img, 0, 0, w, h);
+    URL.revokeObjectURL(url);
+    canvas.toBlob(function(pngBlob) {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(pngBlob);
+      a.download = filename + '_' + w + 'x' + h + '.png';
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      showToast('PNG ' + w + '×' + h + ' downloaded');
+    }, 'image/png');
+  };
+  img.src = url;
+}
+
+let toastTimer;
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
+}
+
+/* ─────────────────────────────────────────────
+   LOGO CARD BUILDER
+───────────────────────────────────────────── */
+function makeCard(svgFn, themeKey, name, desc, filenameBase, previewBg='') {
+  const t = T[themeKey];
+  const svgStr = svgFn(t);
+  const card = document.createElement('div');
+  card.className = 'logo-card';
+
+  const preview = document.createElement('div');
+  preview.className = 'logo-preview';
+  if (previewBg) preview.style.background = previewBg;
+  const img = document.createElement('img');
+  img.src = toDataURL(svgStr);
+  img.alt = name;
+  preview.appendChild(img);
+
+  const info = document.createElement('div');
+  info.className = 'logo-info';
+  info.innerHTML = `
+    <div class="logo-name">${name}</div>
+    <div class="logo-desc">${desc}</div>
+    <div class="dl-btns">
+      <button class="db db-svg">SVG</button>
+      <button class="db db-sm">PNG 512</button>
+      <button class="db db-lg">PNG 1024</button>
+      <button class="db db-xl">PNG 2048</button>
+    </div>`;
+
+  card.appendChild(preview);
+  card.appendChild(info);
+
+  const [btnSVG, btn512, btn1024, btn2048] = info.querySelectorAll('.db');
+
+  // Determine natural dimensions of each SVG type
+  const sizes = getSizes(svgFn);
+  btnSVG.onclick  = () => dlSVG(svgStr, filenameBase);
+  btn512.onclick  = () => dlPNG(svgFn(t, sizes.s, sizes.s), filenameBase, sizes.s, sizes.s);
+  btn1024.onclick = () => dlPNG(svgFn(t, sizes.m, sizes.m), filenameBase, sizes.m, sizes.m);
+  btn2048.onclick = () => dlPNG(svgFn(t, sizes.l, sizes.l), filenameBase, sizes.l, sizes.l);
+
+  return card;
+}
+
+function getSizes(fn) {
+  if (fn === iconSVG)     return {s:512,  m:1024, l:2048};
+  if (fn === stackedSVG)  return {s:512,  m:1024, l:2048};
+  if (fn === horizSVG)    return {s:1024, m:1920, l:3840};
+  if (fn === wordmarkSVG) return {s:1024, m:2048, l:4096};
+  return {s:512, m:1024, l:2048};
+}
+
+/* ─────────────────────────────────────────────
+   ICON CARDS
+───────────────────────────────────────────── */
+const iconDefs = [
+  {theme:'light',    name:'Icon · Standard',     desc:'Full colour on ivory — primary use',         file:'mags-icon-standard',      bg:'#F8F4EC'},
+  {theme:'white',    name:'Icon · On White',      desc:'Full colour on white — digital screens',     file:'mags-icon-white',         bg:'#FFFFFF'},
+  {theme:'dark',     name:'Icon · Reversed',      desc:'Lighter leaves on deep green',               file:'mags-icon-reversed-dark', bg:'#1B4332'},
+  {theme:'gold',     name:'Icon · Gold BG',       desc:'Dark leaves on gold — premium accent',       file:'mags-icon-gold',          bg:'#C9A84C'},
+  {theme:'goldDark', name:'Icon · Gold on Dark',  desc:'All gold on deep green — luxury variant',   file:'mags-icon-gold-dark',     bg:'#1B4332'},
+  {theme:'ivoryGold',name:'Icon · Ivory Gold',    desc:'Warm tones on ivory dark — stationery',     file:'mags-icon-ivory-gold',    bg:'#EDE8DA'},
+  {theme:'monoBlack',name:'Icon · Mono Black',    desc:'Single-colour charcoal — fax, emboss',      file:'mags-icon-mono-black',    bg:'#FFFFFF'},
+  {theme:'monoWhite',name:'Icon · Mono White',    desc:'Single-colour white — dark substrates',     file:'mags-icon-mono-white',    bg:'#2D2D2D'},
+];
+const iconGrid = document.getElementById('icon-grid');
+iconDefs.forEach(d => iconGrid.appendChild(makeCard(iconSVG, d.theme, d.name, d.desc, d.file, d.bg)));
+
+/* ─────────────────────────────────────────────
+   STACKED CARDS
+───────────────────────────────────────────── */
+const stackedDefs = [
+  {theme:'light',    name:'Stacked · Standard',   desc:'Primary logo on ivory',                     file:'mags-stacked-standard',    bg:'#F8F4EC'},
+  {theme:'white',    name:'Stacked · On White',   desc:'Primary logo on white',                     file:'mags-stacked-white',       bg:'#FFFFFF'},
+  {theme:'dark',     name:'Stacked · Dark BG',    desc:'Reversed on deep green',                    file:'mags-stacked-dark',        bg:'#1B4332'},
+  {theme:'gold',     name:'Stacked · Gold BG',    desc:'On gold — packaging & print',               file:'mags-stacked-gold',        bg:'#C9A84C'},
+  {theme:'goldDark', name:'Stacked · Gold/Dark',  desc:'Gold mark on deep green — hero sections',  file:'mags-stacked-gold-dark',   bg:'#1B4332'},
+  {theme:'monoBlack',name:'Stacked · Mono Black', desc:'Single-colour — emboss, stamp, print',      file:'mags-stacked-mono-black',  bg:'#FFFFFF'},
+  {theme:'monoWhite',name:'Stacked · Mono White', desc:'White on charcoal — dark surfaces',         file:'mags-stacked-mono-white',  bg:'#2D2D2D'},
+];
+const stackedGrid = document.getElementById('stacked-grid');
+stackedDefs.forEach(d => stackedGrid.appendChild(makeCard(stackedSVG, d.theme, d.name, d.desc, d.file, d.bg)));
+
+/* ─────────────────────────────────────────────
+   HORIZONTAL CARDS
+───────────────────────────────────────────── */
+const horizDefs = [
+  {theme:'light',    name:'Horiz · Standard',     desc:'Header logo on ivory',                      file:'mags-horiz-standard',     bg:'#F8F4EC'},
+  {theme:'white',    name:'Horiz · On White',     desc:'Header logo on white',                      file:'mags-horiz-white',        bg:'#FFFFFF'},
+  {theme:'dark',     name:'Horiz · Dark BG',      desc:'Reversed on deep green',                    file:'mags-horiz-dark',         bg:'#1B4332'},
+  {theme:'gold',     name:'Horiz · Gold BG',      desc:'On gold — vehicle branding, banners',       file:'mags-horiz-gold',         bg:'#C9A84C'},
+  {theme:'goldDark', name:'Horiz · Gold/Dark',    desc:'Gold on green — dark website headers',      file:'mags-horiz-gold-dark',    bg:'#1B4332'},
+  {theme:'ivoryGold',name:'Horiz · Ivory Gold',   desc:'Warm stationery variant',                   file:'mags-horiz-ivory-gold',   bg:'#EDE8DA'},
+  {theme:'monoBlack',name:'Horiz · Mono Black',   desc:'Single-colour charcoal',                    file:'mags-horiz-mono-black',   bg:'#FFFFFF'},
+  {theme:'monoWhite',name:'Horiz · Mono White',   desc:'White reverse on dark',                     file:'mags-horiz-mono-white',   bg:'#2D2D2D'},
+];
+const horizGrid = document.getElementById('horiz-grid');
+horizDefs.forEach(d => horizGrid.appendChild(makeCard(horizSVG, d.theme, d.name, d.desc, d.file, d.bg)));
+
+/* ─────────────────────────────────────────────
+   WORDMARK CARDS
+───────────────────────────────────────────── */
+const wordmarkDefs = [
+  {theme:'light',    name:'Wordmark · Standard',  desc:'Type only on ivory',                        file:'mags-wordmark-standard',  bg:'#F8F4EC'},
+  {theme:'white',    name:'Wordmark · On White',  desc:'Type only on white',                        file:'mags-wordmark-white',     bg:'#FFFFFF'},
+  {theme:'dark',     name:'Wordmark · Dark BG',   desc:'White type on deep green',                  file:'mags-wordmark-dark',      bg:'#1B4332'},
+  {theme:'goldDark', name:'Wordmark · Gold Type', desc:'Gold type on deep green',                   file:'mags-wordmark-gold',      bg:'#1B4332'},
+  {theme:'monoBlack',name:'Wordmark · Mono Black',desc:'Charcoal on white',                         file:'mags-wordmark-mono-black',bg:'#FFFFFF'},
+];
+const wordmarkGrid = document.getElementById('wordmark-grid');
+wordmarkDefs.forEach(d => wordmarkGrid.appendChild(makeCard(wordmarkSVG, d.theme, d.name, d.desc, d.file, d.bg)));
+
+/* ─────────────────────────────────────────────
+   PLATFORM PRESET BUILDER
+───────────────────────────────────────────── */
+const platforms = [
+  {
+    name:'Website', handle:'Favicon + Header + OG',
+    color:'#1B4332',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><rect x="3" y="6" width="30" height="24" rx="2" stroke="#C9A84C" stroke-width="1.5" fill="none"/><path d="M3 13 L33 13" stroke="#C9A84C" stroke-width="1" opacity="0.5"/><circle cx="8" cy="9.5" r="1" fill="#C9A84C" opacity="0.6"/><circle cx="12" cy="9.5" r="1" fill="#C9A84C" opacity="0.6"/></svg>`,
+    sizes:[
+      {label:'Favicon',    dims:'32 × 32 px',   fn:iconSVG,  theme:'dark',  w:32,   h:32,   file:'mags-favicon-32'},
+      {label:'Favicon',    dims:'64 × 64 px',   fn:iconSVG,  theme:'dark',  w:64,   h:64,   file:'mags-favicon-64'},
+      {label:'Favicon',    dims:'180 × 180 px', fn:iconSVG,  theme:'dark',  w:180,  h:180,  file:'mags-favicon-180'},
+      {label:'Site Header',dims:'400 × 100 px', fn:horizSVG, theme:'dark',  w:400,  h:100,  file:'mags-header-logo'},
+      {label:'OG / Share', dims:'1200 × 630 px',fn:stackedSVG,theme:'dark', w:1200, h:630,  file:'mags-og-image'},
+    ]
+  },
+  {
+    name:'Instagram', handle:'@magslandscaping',
+    color:'#E1306C',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><rect x="4" y="4" width="28" height="28" rx="8" stroke="#C9A84C" stroke-width="1.5" fill="none"/><circle cx="18" cy="18" r="7" stroke="#C9A84C" stroke-width="1.5" fill="none"/><circle cx="26" cy="10" r="1.5" fill="#C9A84C"/></svg>`,
+    sizes:[
+      {label:'Profile Photo',  dims:'320 × 320 px',   fn:iconSVG,   theme:'dark',  w:320,  h:320,  file:'mags-instagram-profile'},
+      {label:'Post — Square',  dims:'1080 × 1080 px', fn:stackedSVG,theme:'dark',  w:1080, h:1080, file:'mags-instagram-post'},
+      {label:'Story Cover',    dims:'1080 × 1920 px', fn:stackedSVG,theme:'dark',  w:1080, h:1920, file:'mags-instagram-story'},
+      {label:'Highlight Cover',dims:'400 × 400 px',   fn:iconSVG,   theme:'goldDark',w:400,h:400,  file:'mags-instagram-highlight'},
+    ]
+  },
+  {
+    name:'Facebook', handle:'Mags Landscaping',
+    color:'#1877F2',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><rect x="3" y="3" width="30" height="30" rx="6" stroke="#C9A84C" stroke-width="1.5" fill="none"/><path d="M20 14 L18 14 Q16 14 16 16 L16 18 L14 18 L14 22 L16 22 L16 30" stroke="#C9A84C" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M16 18 L20 18" stroke="#C9A84C" stroke-width="1.2"/></svg>`,
+    sizes:[
+      {label:'Profile Photo',  dims:'170 × 170 px',  fn:iconSVG,  theme:'dark',  w:170,  h:170,  file:'mags-facebook-profile'},
+      {label:'Page Cover',     dims:'820 × 312 px',  fn:horizSVG, theme:'dark',  w:820,  h:312,  file:'mags-facebook-cover'},
+      {label:'Post Image',     dims:'1200 × 630 px', fn:stackedSVG,theme:'dark', w:1200, h:630,  file:'mags-facebook-post'},
+    ]
+  },
+  {
+    name:'Twitter / X', handle:'@magslandscaping',
+    color:'#000000',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><path d="M4 4 L22 32 M22 4 L4 32" stroke="#C9A84C" stroke-width="2" stroke-linecap="round" opacity="0"/><text x="4" y="26" font-family="sans-serif" font-size="22" font-weight="700" fill="#C9A84C">𝕏</text></svg>`,
+    sizes:[
+      {label:'Profile Photo',  dims:'400 × 400 px',   fn:iconSVG,  theme:'dark',  w:400,  h:400,  file:'mags-twitter-profile'},
+      {label:'Header / Banner',dims:'1500 × 500 px',  fn:horizSVG, theme:'dark',  w:1500, h:500,  file:'mags-twitter-header'},
+      {label:'Post Image',     dims:'1200 × 675 px',  fn:horizSVG, theme:'dark',  w:1200, h:675,  file:'mags-twitter-post'},
+    ]
+  },
+  {
+    name:'LinkedIn', handle:'Mags Landscaping',
+    color:'#0077B5',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><rect x="3" y="3" width="30" height="30" rx="4" stroke="#C9A84C" stroke-width="1.5" fill="none"/><circle cx="11" cy="13" r="2" fill="#C9A84C"/><line x1="11" y1="17" x2="11" y2="28" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"/><path d="M16 17 L16 28 M16 21 Q16 17 22 17 Q27 17 27 22 L27 28" stroke="#C9A84C" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>`,
+    sizes:[
+      {label:'Profile Photo',  dims:'300 × 300 px',   fn:iconSVG,   theme:'dark',  w:300,  h:300,  file:'mags-linkedin-profile'},
+      {label:'Company Cover',  dims:'1584 × 396 px',  fn:horizSVG,  theme:'dark',  w:1584, h:396,  file:'mags-linkedin-cover'},
+      {label:'Post Image',     dims:'1200 × 627 px',  fn:stackedSVG,theme:'dark',  w:1200, h:627,  file:'mags-linkedin-post'},
+    ]
+  },
+  {
+    name:'WhatsApp', handle:'Business Profile',
+    color:'#25D366',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="14" stroke="#C9A84C" stroke-width="1.5" fill="none"/><path d="M10 26 Q8 30 10 32 L14 30 Q17 32 18 32 Q26 32 30 24 Q34 14 26 8 Q18 4 12 10 Q8 16 10 22 Z" stroke="#C9A84C" stroke-width="1.4" fill="none"/></svg>`,
+    sizes:[
+      {label:'Profile Photo',  dims:'500 × 500 px',  fn:iconSVG,   theme:'dark',  w:500,  h:500,  file:'mags-whatsapp-profile'},
+      {label:'Status Image',   dims:'1080 × 1920 px',fn:stackedSVG,theme:'dark',  w:1080, h:1920, file:'mags-whatsapp-status'},
+    ]
+  },
+  {
+    name:'YouTube', handle:'Mags Landscaping',
+    color:'#FF0000',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><rect x="3" y="9" width="30" height="18" rx="5" stroke="#C9A84C" stroke-width="1.5" fill="none"/><path d="M15 13 L23 18 L15 23 Z" fill="#C9A84C" opacity="0.8"/></svg>`,
+    sizes:[
+      {label:'Channel Icon',   dims:'800 × 800 px',   fn:iconSVG,   theme:'dark',  w:800,  h:800,  file:'mags-youtube-icon'},
+      {label:'Channel Art',    dims:'2560 × 1440 px', fn:horizSVG,  theme:'dark',  w:2560, h:1440, file:'mags-youtube-banner'},
+      {label:'Thumbnail Logo', dims:'1280 × 720 px',  fn:stackedSVG,theme:'dark',  w:1280, h:720,  file:'mags-youtube-thumbnail'},
+    ]
+  },
+  {
+    name:'TikTok', handle:'@magslandscaping',
+    color:'#000000',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><path d="M14 8 L14 24 Q14 30 20 30 Q26 30 26 24 Q26 18 20 18 L20 12 Q28 12 30 22 Q32 32 20 32 Q12 32 10 24 L10 8 Z" stroke="#C9A84C" stroke-width="1.4" fill="none" stroke-linejoin="round"/><path d="M26 8 Q28 9 30 8" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>`,
+    sizes:[
+      {label:'Profile Photo',  dims:'200 × 200 px',   fn:iconSVG,   theme:'dark',  w:200,  h:200,  file:'mags-tiktok-profile'},
+      {label:'Video Cover',    dims:'1080 × 1920 px', fn:stackedSVG,theme:'dark',  w:1080, h:1920, file:'mags-tiktok-video'},
+    ]
+  },
+  {
+    name:'Email Signature', handle:'Email & Proposals',
+    color:'#1B4332',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><rect x="3" y="8" width="30" height="20" rx="2" stroke="#C9A84C" stroke-width="1.5" fill="none"/><path d="M3 8 L18 20 L33 8" stroke="#C9A84C" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/></svg>`,
+    sizes:[
+      {label:'Email Logo',     dims:'300 × 80 px',   fn:horizSVG,  theme:'light', w:300,  h:80,   file:'mags-email-logo'},
+      {label:'Email Header',   dims:'600 × 200 px',  fn:horizSVG,  theme:'dark',  w:600,  h:200,  file:'mags-email-header'},
+      {label:'Signature Mark', dims:'80 × 80 px',    fn:iconSVG,   theme:'dark',  w:80,   h:80,   file:'mags-email-mark'},
+    ]
+  },
+  {
+    name:'Print & App', handle:'High Resolution',
+    color:'#A07830',
+    icon:`<svg width="18" height="18" viewBox="0 0 36 36" fill="none"><rect x="8" y="4" width="20" height="28" rx="2" stroke="#C9A84C" stroke-width="1.5" fill="none"/><line x1="12" y1="12" x2="24" y2="12" stroke="#C9A84C" stroke-width="1.2" opacity="0.6"/><line x1="12" y1="17" x2="24" y2="17" stroke="#C9A84C" stroke-width="1.2" opacity="0.4"/><line x1="12" y1="22" x2="20" y2="22" stroke="#C9A84C" stroke-width="1.2" opacity="0.3"/></svg>`,
+    sizes:[
+      {label:'App Icon',        dims:'1024 × 1024 px', fn:iconSVG,    theme:'dark',  w:1024, h:1024, file:'mags-app-icon-1024'},
+      {label:'App Icon (2x)',   dims:'512 × 512 px',   fn:iconSVG,    theme:'dark',  w:512,  h:512,  file:'mags-app-icon-512'},
+      {label:'Print Logo',      dims:'4096 × 4096 px', fn:stackedSVG, theme:'light', w:4096, h:4096, file:'mags-print-logo-4k'},
+      {label:'Stationery Head', dims:'2480 × 800 px',  fn:horizSVG,   theme:'light', w:2480, h:800,  file:'mags-letterhead-logo'},
+    ]
+  },
+];
+
+const platGrid = document.getElementById('platform-grid');
+platforms.forEach(p => {
+  const card = document.createElement('div');
+  card.className = 'platform-card';
+
+  const sizes = p.sizes.map(s => `
+    <div class="size-row">
+      <div class="size-info">
+        <span class="size-label">${s.label}</span>
+        <span class="size-dims">${s.dims}</span>
+      </div>
+      <div class="size-btns" data-fn="${p.sizes.indexOf(s)}">
+        <button class="sb sb-svg">SVG</button>
+        <button class="sb sb-png">PNG</button>
+      </div>
+    </div>`).join('');
+
+  card.innerHTML = `
+    <div class="plat-header">
+      <div class="plat-icon" style="background:${p.color};">${p.icon}</div>
+      <div>
+        <div class="plat-name">${p.name}</div>
+        <div class="plat-handle">${p.handle}</div>
+      </div>
+    </div>
+    ${sizes}`;
+
+  platGrid.appendChild(card);
+
+  card.querySelectorAll('.size-row').forEach((row, i) => {
+    const s = p.sizes[i];
+    const t = T[s.theme];
+    const [svgBtn, pngBtn] = row.querySelectorAll('.sb');
+    svgBtn.onclick = () => dlSVG(s.fn(t, s.w, s.h), s.file);
+    pngBtn.onclick = () => dlPNG(s.fn(t, s.w, s.h), s.file, s.w, s.h);
+  });
+});
+</script>
+</body>
+</html>
